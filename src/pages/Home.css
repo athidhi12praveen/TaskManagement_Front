@@ -1,0 +1,24 @@
+.greeting{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.date{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.heading-icon{
+    font-size: 30px;
+    color: black;
+}
+
+.modal-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}

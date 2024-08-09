@@ -1,0 +1,75 @@
+.app {
+    background-image: url(hhttps://images.pexels.com/photos/2736499/pexels-photo-2736499.jpeg?cs=srgb&dl=pexels-content-pixie-1405717-2736499.jpg&fm=jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    border-radius: 20px;
+    background-color:  rgba(210, 210, 213, 0.567);
+    padding: 40px; 
+    width: 90%; 
+    max-width: 500px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .title {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px; 
+    text-decoration: underline;
+    text-align: center;
+  }
+  
+  .text-fields {
+    margin-top: 20px; 
+  }
+  
+  .input {
+    margin-bottom: 20px; 
+  }
+  
+  .btn {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(193, 17, 25);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .btn:hover {
+    background-color: #ad121c; 
+  }
+  
+  .my-account {
+    margin-top: 10px; 
+    text-align: center;
+  }
+  
+  .account {
+    color: white;
+  }
+  
+  .link {
+    color: blue;
+    text-decoration: none; 
+  }
+  
+  .link:hover {
+    text-decoration: underline; 
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 20px; 
+    }
+  }
+  
