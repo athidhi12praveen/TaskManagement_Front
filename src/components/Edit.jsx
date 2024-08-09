@@ -75,6 +75,7 @@ function Edit() {
         setNormalInput({ task: "", description: "" });
         setStatus("");
         settaskData(response.data);
+        navigate("/home");
       } else {
         setMessage("Request failed");
       }
